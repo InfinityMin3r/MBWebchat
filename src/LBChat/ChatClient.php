@@ -24,6 +24,7 @@ class ChatClient {
 	private $muted;
 	private $muteTime;
 	private $visible;
+	private $shadowbanned;
 	protected $loggedIn;
 
 	public function __construct(ChatServer $server, ConnectionInterface $connection) {
